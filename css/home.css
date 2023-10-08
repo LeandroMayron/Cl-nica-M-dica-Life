@@ -210,6 +210,25 @@ footer{
     line-height: 33px;
 }
 
+@media screen and (max-width: 425px){
+    .topo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .topo img{
+        width: 120px;
+    }
+
+    .link-topo{
+        border-top: 2px solid #008B8B;
+    }
+
+    .link-topo a{
+        font-size: 18px;
+    }
+}
+
 
 
 
