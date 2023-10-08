@@ -6,16 +6,15 @@
 }
 
 p{
-    font-size: 18px;
     color: gray;
 }
 
-h2, figcaption{
+h2, h3, figcaption{
     color: #594d5b;
 }
 header{
     width: 100%;
-    background-color: aqua;
+    background-color: #00BFFF;
 }
 
 .topo{
@@ -94,8 +93,13 @@ header{
 
 .conteudo-lista{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+
+.conteudo-lista img{
+    width: 20%;
+    margin-left: 90px;
 }
 
 .lista{
@@ -106,6 +110,107 @@ header{
     color: gray;
     margin-bottom: 20px;
 }
+
+.lista ul{
+    color: gray;
+}
+
+.lista li{
+    margin-left: 50px;
+}
+
+.conteudo-multi{
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1024px;
+    text-align: center;
+}
+
+.conteudo-multi p{
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+.galeria-multi{
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galeria-multi figure{
+    text-align: center;
+    box-shadow: 1px 1px 8px gray;
+}
+
+.galeria-multi img{
+    width: 260px;
+    height: 180px;
+}
+
+.galeria-multi figcaption{
+    padding: 10px;
+    color: gray;
+}
+
+.container-botao{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    background-color: #00BFFF;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.conteudo-contato{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.conteudo-contato p{
+    padding-top: 20px;
+}
+
+.conteudo-contato span, a{
+    color: #594d5b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    background-color: #008B8B;
+}
+
+.conteudo-footer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conteudo-footer img{
+    width: 120px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.conteudo-footer p{
+    color: #fff;
+    line-height: 33px;
+}
+
+
 
 
 
