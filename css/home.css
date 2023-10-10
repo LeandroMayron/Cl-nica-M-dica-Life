@@ -51,6 +51,7 @@ header{
 .banner{
     width: 100%;
     height: 600px;
+    display: flex;
     background-image: url(/img/recepcao.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -59,13 +60,10 @@ header{
 .area{
     width: 100%;
     max-width: 1024px;
-    margin: 0 auto;     
+    margin: 0 auto;   
 }
 
 .titulo{
-    width: 100%;
-    max-width: 1024px;
-    height: 600px;
     display: flex;
     justify-content: baseline;
     align-items: center;
@@ -86,7 +84,8 @@ header{
 }
 
 .titulo-sobre p{
-    margin: 20px 0;
+    width: 700px;
+    margin: 20px auto;
     line-height: 22px;
     font-size: 18px;
 }
@@ -211,6 +210,7 @@ footer{
 }
 
 @media screen and (max-width: 425px){
+    
     .topo{
         display: flex;
         justify-content: center;
@@ -225,7 +225,58 @@ footer{
     }
 
     .link-topo a{
+        font-size: 16px;
+    }
+
+    .banner{
+        height: 169px;
+        display: flex;
+    }
+
+    .titulo{
+        width: 90%;
+        display: flex;
+        justify-content: baseline;
+        align-items:center;  
+    }
+
+    .titulo h1{
         font-size: 18px;
+    }
+
+    .titulo-sobre{
+        margin-top: 40px;
+    }
+
+    .titulo-sobre h2{
+        font-size: 18px;
+    }
+
+    .titulo-sobre p{
+        width: 346px;
+        margin: 20px 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .conteudo-lista img{
+        display: none;
+    }
+
+    .conteudo-lista h2{
+        margin: 0 10px;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .conteudo-lista ul{
+        margin: 10px 10px 10px -5px;
+    }
+    
+    .conteudo-lista p{
+        font-size: 13px;
+        line-height: normal;
     }
 }
 
