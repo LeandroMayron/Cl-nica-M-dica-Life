@@ -153,6 +153,11 @@ header{
     color: gray;
 }
 
+.conteudo-multi p{
+    width: 50%;
+    margin: 20px auto;
+}
+
 .container-botao{
     margin-top: 30px;
     display: flex;
@@ -210,7 +215,9 @@ footer{
 }
 
 @media screen and (max-width: 425px){
-    
+    p{
+        font-size: 14px;
+    }
     .topo{
         display: flex;
         justify-content: center;
@@ -277,6 +284,51 @@ footer{
     .conteudo-lista p{
         font-size: 13px;
         line-height: normal;
+    }
+
+    .conteudo-multi p{
+        width: 96%;
+        margin-top: 10px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .galeria-multi{
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+        padding: 0 20px;
+    }
+
+    .galeria-multi figure{
+        margin-bottom: 30px;
+    }
+
+    .galeria-multi img{
+        width: 100%;
+    }
+
+    .botao{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .conteudo-contato{
+        width: 94%;
+    }
+
+    .mapa{
+        display: flex;
+        justify-content: center;
+    }
+    .area iframe{
+        width: 90%;
+        height: 320px;
+    }
+
+    .conteudo-footer p{
+        margin-bottom: 10px;
+        line-height: 18px;
     }
 }
 
