@@ -9,7 +9,12 @@ p{
     color: gray;
 }
 
-h2, h3, figcaption{
+h2, h3 {
+    color: #594d5b;
+    font-weight: 800;
+}
+
+figcaption{
     color: #594d5b;
 }
 header{
@@ -353,9 +358,69 @@ footer{
         font-size: 5vw;
     }
 
+    .lista h2{
+        font-weight: normal;
+    }
+
+    .conteudo-multi p{
+        width: 500px;
+    }
+
+    .conteudo-contato p{
+        width: 600px;
+        margin: 0 auto;
+        
+    }
+
+    .area-mapa{
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body{
+        width: 1024px;
+    }
+    .topo img{
+        width: 10%;
+    }
+
+    .link-topo a{
+        font-size: 16px;
+    }
+
+    .titulo{
+        left: 20px;
+        bottom: 42%;
+    }
+
+    .titulo h1{
+        font-size: 32px;
+    }
+
+    .lista h2{
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .conteudo-lista{
+        margin-left: -90px;
+    }
+
+    .conteudo-multi p{
+        width: 600px;
+    }
+
+    .conteudo-contato p{
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    .area-mapa{
+        padding: 20px;
+    }
     
-
-
+}
 
 
 
