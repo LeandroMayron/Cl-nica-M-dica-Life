@@ -86,6 +86,9 @@ header{
     text-align: center;
 }
 
+.titulo-sobre h2 {
+    font-weight: 800;
+}
 .titulo-sobre p{
     width: 700px;
     margin: 20px auto;
@@ -329,6 +332,28 @@ footer{
         line-height: 18px;
     }
 }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .topo img{
+        width: 20%;
+    }
+
+    .topo a{
+        font-size: 2.5vw;
+    }
+    .conteudo-lista img{
+        display: none;
+    }
+
+    .titulo{
+        left: 20px;
+        top: 47%;
+    }
+    .titulo h1{
+        font-size: 5vw;
+    }
+
+    
 
 
 
